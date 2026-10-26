@@ -1,0 +1,15 @@
+{
+  "upstream_repository": "https://github.com/ziye5731/iv-regression",
+  "upstream_commit": "f063275593a05699c6d52d4e45a9ac16ac64b67f",
+  "source_sha256": {
+    "LICENSE": "e05551aaa776b293b097accac47c01df8b3e9beea1bb5b13d2e65dea9d239c11",
+    "iv_sim/algorithms.py": "1458268d5322b12fa8a104edada4ac7b04d62f269ac1f37e0dddd33641171d83",
+    "iv_sim/models.py": "242548c5ebc087462f0f9a3fb8ceb60df9b65a7b56898e5b5c05a431f159973d",
+    "iv_sim/ssgmm_study.py": "b6087569996970b97522537bcecc527ffa1f6bf28ec3de8c19bcfdd3335725fc",
+    "run_ssgmm_study.py": "d980cc4cb0a9daff31b8ba90411db1f5a93f0d606fc9ef79570e4e219ed4241d",
+    "plot_ssgmm_study.py": "507da7ca38a538aed614f37fcb87ff8758dab8fa828e4d12ed9651d8f4bf2f04",
+    "ssgmm_study_config.py": "26adfb5407884fe3dbd92519c09e7f88d2728999b223888e063c2f40958ff904",
+    "tests/test_ssgmm_study.py": "d83425710e2ef0e0ef557bdc88a412110e2ec7ab0b1ce015fafd14ddcd929611"
+  },
+  "note": "Extracted from local research checkout. Only listed source files were used; unrelated uncommitted README and experiment_config changes were not imported."
+}

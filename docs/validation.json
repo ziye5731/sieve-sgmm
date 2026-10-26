@@ -1,0 +1,112 @@
+{
+  "validated_on": "2026-10-26",
+  "python": "3.12.14",
+  "platform": "macOS arm64",
+  "dependencies": {
+    "numpy": "2.5.4",
+    "numba": "0.68.0",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "unit_tests_passed": 12,
+  "upstream_equivalence": [
+    {
+      "model": 0,
+      "basis": [
+        1
+      ],
+      "observations": 513,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "model": 0,
+      "basis": [
+        2
+      ],
+      "observations": 513,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "model": 1,
+      "basis": [
+        1
+      ],
+      "observations": 513,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "model": 1,
+      "basis": [
+        0,
+        1,
+        2
+      ],
+      "observations": 513,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "model": 1,
+      "basis": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "observations": 513,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "model": 2,
+      "basis": [
+        0,
+        1,
+        2
+      ],
+      "observations": 513,
+      "max_absolute_difference": 0.0
+    }
+  ],
+  "smoke_groups": {
+    "calibration": {
+      "status": "complete",
+      "steps": 512,
+      "repeats": 2,
+      "configurations": 5,
+      "numerical_failures": 0,
+      "figures": 2
+    },
+    "exp-tanh": {
+      "status": "complete",
+      "steps": 512,
+      "repeats": 2,
+      "configurations": 12,
+      "numerical_failures": 0,
+      "figures": 2
+    },
+    "quadratic-linear": {
+      "status": "complete",
+      "steps": 512,
+      "repeats": 2,
+      "configurations": 8,
+      "numerical_failures": 0,
+      "figures": 3
+    },
+    "quadratic-relu": {
+      "status": "complete",
+      "steps": 512,
+      "repeats": 2,
+      "configurations": 8,
+      "numerical_failures": 0,
+      "figures": 3
+    },
+    "tracking": {
+      "status": "complete",
+      "steps": 512,
+      "repeats": 2,
+      "configurations": 12,
+      "numerical_failures": 0,
+      "figures": 2
+    }
+  },
+  "full_monte_carlo_rerun": false
+}

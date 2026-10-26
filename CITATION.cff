@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository and the accompanying methods post."
+type: software
+title: "sieve-sgmm: Streaming Sieve GMM for Nonlinear Instrumental Variable Regression"
+authors:
+  - family-names: Zhang
+    given-names: Ziye
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/ziye5731/sieve-sgmm"
+url: "https://ziye5731.github.io/posts/2026/10/sieve-sgmm/"
